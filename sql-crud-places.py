@@ -56,10 +56,10 @@ poland = Places(
 # session.commit()
 
 # updating a single record
-places = session.query(Places).filter_by(id=3).first()
-places.population = 38000000
+# places = session.query(Places).filter_by(id=3).first()
+# places.population = 38000000
 # commit our session to the database
-session.commit()
+# session.commit()
 
 # query the database to find all Programmers
 places = session.query(Places)
